@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+.border{
+    border: 2px  red solid;
+    
+}
+
+
+/* style for 1st page  */
+#page1{
+ margin:  auto;
+width: 1920px;
+height: 652px;    
+background-image: url("../assets/Hero-bg.png");
+}
+#page1-div1{
+    margin: 0 221px 0 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#page1-div1>p{
+    padding: 0 -20px 0 110px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#page1-div1>h2{
+   font-weight: 800;
+   font-size: 48px;
+}
+#page1-div1>#contact{
+    font-size: 20px;
+    font-weight: 600;
+    height: 66px;
+    width: 208px;
+    margin: 32px 0px ;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background: rgb(13, 19, 33);
+    order: 1;
+}
+
+/* style for 2nd  page  */
+
+#page2{
+    height: 1500px;
+    width: 1140px;
+    margin: auto;
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0 auto;
+}
+
+#page2>#page2-para1{
+    text-align: center;
+     margin-top: 80px;
+     font-size: 32px;
+     font-weight: 800;
+}
+#page2>#page2-para2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+}
+/* style for page 2 div 1  */
+#page2>#page2-div1{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 97px;
+    margin-right: 97px;
+    
+
+}
+/* style for page 2 div 2  */
+#page2>#page2-div2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 97px;
+    margin-right: 97px;
+    gap: 32px;
+    padding: 48px;  
+
+
+}
+/* style for page 2 div 3 */
+#page2>#page2-div3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 97px;
+    margin-right: 97px;
+
+}
+.same{
+  padding: 48px;  
+  gap: 97px;
+}
+/* style for page 2 all paragraph  */
+#page2 .same p{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* style for same things in page2 div 1 & 3 */
+#page2 .same h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+/* style for page 2 div 2 */
+#page2 #page2-div2 h3{
+    color: rgba(13, 19, 33, 0.7); 
+    font-size: 24px;
+    font-weight: 700;
+}
+/* style for page 2 all div's button  */
+
+.page2-button{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    margin: 32px 0px;
+    padding: 12px 20px 12px 20px;
+}
+
+#page3{
+    width: 1140px;
+    height: 775px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    padding: 0 auto;
+}
+
+#page3>#page3-div1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#page3>#page3-div2{
+ height: 614px;
+ align-items: center;
+ align-self: stretch;
+ padding: 25px;
+ border-radius: 16px;
+}
+
+/* style for page 4  */
+
+#page4{
+    text-align: center;
+    width: 1140px;
+    height: 1437px;
+    border-radius: 16px;
+    
+    margin: auto;
+
+}
+
+#page4>#page4-div1{
+   
+    width: 1140px;
+    /* height: 1437px; */
+    border-radius: 16px;
+    display: flex;
+    margin: auto;
+
+}
