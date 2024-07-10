@@ -3,11 +3,11 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
-
-.border{
+ /* style for border in beginning  */
+/* .border{
     border: 2px  red solid;
     
-}
+} */
 
 
 /* style for 1st page  */
@@ -34,7 +34,7 @@ background-image: url("../assets/Hero-bg.png");
    font-weight: 800;
    font-size: 48px;
 }
-#page1-div1>#contact{
+#page1-div1 .contact{
     font-size: 20px;
     font-weight: 600;
     height: 66px;
@@ -52,6 +52,8 @@ background-image: url("../assets/Hero-bg.png");
     height: 1500px;
     width: 1140px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
     background: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
     display: flex;
@@ -71,10 +73,13 @@ background-image: url("../assets/Hero-bg.png");
     font-size: 16px;
     font-weight: 400;
     align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 /* style for page 2 div 1  */
 #page2>#page2-div1{
-    
+   background-color: white; 
+   border-radius: 16px;
     display: flex;
     flex-direction: row;
     margin-left: 97px;
@@ -97,6 +102,8 @@ background-image: url("../assets/Hero-bg.png");
 }
 /* style for page 2 div 3 */
 #page2>#page2-div3{
+    background-color: white; 
+   border-radius: 16px;
     display: flex;
     flex-direction: row;
     margin-left: 97px;
@@ -135,6 +142,7 @@ background-image: url("../assets/Hero-bg.png");
     margin: 32px 0px;
     padding: 12px 20px 12px 20px;
 }
+/* style for page 3 */
 
 #page3{
     width: 1140px;
@@ -143,21 +151,33 @@ background-image: url("../assets/Hero-bg.png");
     display: flex;
     flex-direction: column;
     margin: auto;
-
+margin-bottom: 120px;
     padding: 0 auto;
 }
-
+#page3 .h3{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
 #page3>#page3-div1{
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 #page3>#page3-div2{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
  height: 614px;
  align-items: center;
  align-self: stretch;
  padding: 25px;
  border-radius: 16px;
+}
+#page3 .ytvideo{
+   border-radius: 16px;
 }
 
 /* style for page 4  */
@@ -165,7 +185,7 @@ background-image: url("../assets/Hero-bg.png");
 #page4{
     text-align: center;
     width: 1140px;
-    height: 1437px;
+    height: 500px;
     border-radius: 16px;
     
     margin: auto;
@@ -246,7 +266,7 @@ background-image: url("../assets/Hero-bg.png");
     background-size: cover;
     border-radius: 16px;
 
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+background: rgba(0, 0, 0, 0.934),rgba(0, 0, 0, 2),rgba(0, 0, 0, 0.832),url(Email);
     
 }
  #page5 #feedback{
@@ -297,16 +317,18 @@ background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
  /* style for footer  */
  footer{
     min-width: 1920px;
+    height: 100px;
     background: rgba(13, 19, 33, 0.03);
  }
  footer>div{ 
-    max-width: 1140px;
+    margin: auto;
+
+    width: 1140px;
     max-height: 100px;
-    margin: 50px 0 0 0;
+    margin-top: 50px;
     display: flex;
-   align-items: flex-start;
+   align-items: center;
     border-radius: 16px;
-   justify-content: center;
     padding: 32px 150px 32px 150px;
 
  }
@@ -316,14 +338,16 @@ background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
-   
-    padding-right: 640px;
     text-align: left;
+    padding-right: 635px;
    
 
  }
  footer .fb-git{
     padding-right: 10px;
+ }
+ footer .logo{
+   
  }
 
  
